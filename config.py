@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "𝗛𝗶𝗶 {first}\n𝗚𝗲𝘁 𝗥𝗲𝗮𝗱𝘆 💪🏻🍌🤤 \n\n𝗣𝗿𝗲𝘀𝘀 𝗦𝗧𝗔𝗥𝗧 𝗮𝗻𝗱 𝗴𝗲𝘁 𝘆𝗼𝘂𝗿 𝗩𝗶𝗱𝗲𝗼 👀\n\n𝗪𝗵𝗮𝘁 𝘁𝗼 𝘄𝗮𝘁𝗰𝗵 🤔😏👉🏻 @linkyaar")
+START_MSG = os.environ.get("START_MESSAGE", "𝗛𝗶𝗶 {first}\n𝗚𝗲𝘁 𝗥𝗲𝗮𝗱𝘆 💪🏻🍌🤤 \n\n𝗣𝗿𝗲𝘀𝘀 𝗦𝗧𝗔𝗥𝗧 𝗮𝗻𝗱 𝗴𝗲𝘁 𝘆𝗼𝘂𝗿 𝗩𝗶𝗱𝗲𝗼 👀\n\n𝗪𝗵𝗮𝘁 𝘁𝗼 𝘄𝗮𝘁𝗰𝗵 🤔😏👉🏻 @linkyaar \n\nQueries/Promotion - @linkyaarbot")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -58,7 +58,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌ Do not sent message here i cant reply... 👄 \n\nGet your videos here  👉🏻@linkyaar"
+USER_REPLY_TEXT = "❌ Do not send any message here\ni cant reply here... 👄 \n\nGet your videos here  👉🏻@linkyaar \n\n Queries/Promotion - @linkyaarbot"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
