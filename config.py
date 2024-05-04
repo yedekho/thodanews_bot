@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Heyaa 👀 {first}\n\n𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗒𝗈𝗎𝗋 𝖶𝗈𝗋𝗅𝖽 𝗈𝖿 \n@wownewsss 👽☠️ \n\n𝖦𝖾𝗍 𝗋𝖾𝖺𝖽𝗒 𝗍𝗈 𝖾𝗑𝗉𝖾𝗋𝗂𝖾𝗇𝖼𝖾 𝗍𝗁𝖾 \n<b>𝖡𝗋𝗎𝗍𝖺𝗅𝗂𝗍𝗒</b> 🔪😳 𝖺𝗇𝖽 <b>𝖳𝗁𝗋𝗂𝗅𝗅𝖾𝗋</b> 🤯 ... \n\n𝖳𝗁𝗂𝗌 𝖻𝗈𝗍 𝗐𝗂𝗅𝗅 𝗀𝗂𝗏𝖾 𝗒𝗈𝗎𝗋 𝗏𝗂𝖽𝖾𝗈𝗌 🎦 \nयह बॉट आपके वीडियो देगा 🎦 \nسيعطي هذا الروبوت مقاطع الفيديو الخاصة")
+START_MSG = os.environ.get("START_MESSAGE", "𝗛𝗶𝗶 {first}\n𝗚𝗲𝘁 𝗥𝗲𝗮𝗱𝘆 💪🏻🍌🤤 \n\n𝗣𝗿𝗲𝘀𝘀 𝗦𝗧𝗔𝗥𝗧 𝗮𝗻𝗱 𝗴𝗲𝘁 𝘆𝗼𝘂𝗿 𝗩𝗶𝗱𝗲𝗼 👀\n\n𝗪𝗵𝗮𝘁 𝘁𝗼 𝘄𝗮𝘁𝗰𝗵 🤔😏👉🏻 @linkyaar")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -58,7 +58,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
+USER_REPLY_TEXT = "❌ Do not sent message here i cant reply... 👄 \n\nGet your videos here  👉🏻@linkyaar"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
